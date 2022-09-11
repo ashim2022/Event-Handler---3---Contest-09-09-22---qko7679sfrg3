@@ -21,11 +21,11 @@ const App = () => {
   };
 
   useEffect(() => {
-    console.log("Input in #text-input is ", inputValueText);
+    console.log(`Input in #text-input is ${inputValueText}`);
   }, [inputValueText]);
 
   useEffect(() => {
-    console.log("Input in #num-input is ", inputValueNumber);
+    console.log(`Input in #num-input is ${inputValueNumber}`);
   }, [inputValueNumber]);
 
   return (
