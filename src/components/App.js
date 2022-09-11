@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "../styles/App.css";
 const App = () => {
   const [inputValueText, setInputValueText] = useState("");
-  const [inputValueNumber, setInputValueNumber] = useState(0);
+  const [inputValueNumber, setInputValueNumber] = useState("");
 
   const handleInput = (event) => {
     switch (event.target.id) {
